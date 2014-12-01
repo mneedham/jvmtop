@@ -111,10 +111,10 @@ public class VMProfileView extends AbstractConsoleView
   private String shortFQN(String fqn, String method, int size)
   {
     String line = fqn + "." + method;
-    if (line.length() > size)
-    {
-      line = "..." + line.substring(3, size);
-    }
+//    if (line.length() > size)
+//    {
+//      line = "..." + line.substring(3, size);
+//    }
     return line;
   }
 
